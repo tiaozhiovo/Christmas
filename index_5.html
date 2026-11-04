@@ -1,0 +1,946 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>圣诞爆款画像 · 纹身贴 & 面部装饰贴</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;600;700;900&family=Bodoni+Moda:ital,opsz,wght@0,6..96,600;1,6..96,500;1,6..96,700&family=Noto+Sans+SC:wght@300;400;500;700&display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+:root{
+  --paper:#f6f1e6;
+  --paper-2:#efe7d7;
+  --ink:#171a16;
+  --forest:#0d3a2b;
+  --forest-2:#0a2c21;
+  --red:#bf3a2a;
+  --red-deep:#8f2a1e;
+  --gold:#b9914a;
+  --gold-soft:#d9bd8a;
+  --line:rgba(23,26,22,.14);
+  --serif:"Noto Serif SC","Songti SC","STSong",Georgia,serif;
+  --sans:"Noto Sans SC","PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;
+  --display:"Bodoni Moda","Times New Roman",serif;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;background:var(--paper);color:var(--ink);
+  font-family:var(--sans);font-weight:400;
+  -webkit-font-smoothing:antialiased;
+  overflow-x:hidden;
+}
+body::before{
+  content:"";position:fixed;inset:0;pointer-events:none;z-index:9;
+  opacity:.5;mix-blend-mode:multiply;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3'/%3E%3C/filter%3E%3Crect width='220' height='220' filter='url(%23n)' opacity='.22'/%3E%3C/svg%3E");
+}
+::selection{background:var(--red);color:#fff}
+
+/* ---------- shell ---------- */
+.wrap{width:min(1240px,calc(100% - 48px));margin:0 auto}
+@media(max-width:640px){.wrap{width:calc(100% - 32px)}}
+
+/* ---------- top bar ---------- */
+.topbar{
+  position:sticky;top:0;z-index:40;
+  background:rgba(246,241,230,.86);
+  backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);
+  border-bottom:1px solid var(--line);
+}
+.topbar-in{display:flex;align-items:center;justify-content:space-between;gap:16px;height:58px}
+.brand{display:flex;align-items:center;gap:10px;font-size:12.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--forest);font-weight:500}
+.brand .dot{width:7px;height:7px;border-radius:50%;background:var(--red);box-shadow:0 0 0 4px rgba(191,58,42,.14);animation:pulse 2.4s infinite}
+@keyframes pulse{0%,100%{box-shadow:0 0 0 3px rgba(191,58,42,.08)}50%{box-shadow:0 0 0 7px rgba(191,58,42,.02)}}
+.brand b{font-weight:700;letter-spacing:.1em}
+.topbar-right{display:flex;align-items:center;gap:14px}
+.cd{font-family:var(--display);font-style:italic;font-size:14px;color:var(--red-deep);letter-spacing:.02em;white-space:nowrap}
+.cd b{font-size:19px;font-family:var(--display);font-weight:700}
+.btn-mini{
+  display:inline-flex;align-items:center;gap:6px;height:34px;padding:0 16px;
+  background:var(--forest);color:#f3ecdc;border:0;border-radius:999px;
+  font-size:12.5px;letter-spacing:.08em;cursor:pointer;text-decoration:none;
+  transition:.3s cubic-bezier(.2,.8,.2,1);
+}
+.btn-mini:hover{background:var(--red);transform:translateY(-1px)}
+@media(max-width:640px){.brand span.full{display:none}.cd{font-size:12px}.cd b{font-size:16px}}
+
+/* ---------- hero ---------- */
+.hero{position:relative;padding:clamp(40px,7vw,96px) 0 clamp(36px,6vw,72px);overflow:hidden}
+.hero::after{
+  content:"";position:absolute;width:640px;height:640px;right:-220px;top:-220px;border-radius:50%;
+  background:radial-gradient(circle at 40% 40%,rgba(191,58,42,.13),rgba(185,145,74,.06) 45%,transparent 68%);
+  pointer-events:none;
+}
+.hero-grid{position:relative;display:grid;grid-template-columns:1.08fr .92fr;gap:clamp(24px,4vw,60px);align-items:end}
+@media(max-width:900px){.hero-grid{grid-template-columns:1fr;gap:32px}}
+.eyebrow{
+  display:inline-flex;align-items:center;gap:10px;
+  font-size:11.5px;letter-spacing:.24em;color:var(--forest);text-transform:uppercase;
+  border:1px solid var(--line);border-radius:999px;padding:7px 14px;background:rgba(255,255,255,.45);
+}
+.eyebrow i{width:16px;height:1px;background:var(--red);display:inline-block;font-style:normal}
+h1.title{
+  font-family:var(--serif);font-weight:900;
+  font-size:clamp(56px,10.5vw,132px);line-height:.95;letter-spacing:-.02em;
+  margin:22px 0 0;color:var(--forest-2);
+}
+h1.title .l2{display:block;position:relative;padding-left:.02em}
+h1.title em{
+  font-style:normal;color:var(--red);position:relative;display:inline-block;z-index:0;
+}
+h1.title em::after{
+  content:"";position:absolute;left:-2%;right:-2%;bottom:.06em;height:.16em;
+  background:linear-gradient(90deg,rgba(191,58,42,.22),rgba(191,58,42,.06));
+  z-index:-1;
+}
+.title-sub{
+  font-family:var(--display);font-style:italic;font-size:clamp(15px,1.8vw,20px);
+  color:var(--gold);letter-spacing:.06em;margin-top:10px;
+}
+.lede{
+  margin-top:26px;max-width:33em;font-size:clamp(14.5px,1.5vw,16.5px);line-height:2;
+  color:#3a4038;font-weight:300;
+}
+.lede b{font-weight:600;color:var(--forest);border-bottom:2px solid rgba(185,145,74,.45)}
+.hero-meta{display:flex;flex-wrap:wrap;gap:10px;margin-top:26px}
+.chip{
+  display:inline-flex;align-items:center;gap:8px;padding:8px 15px;border-radius:999px;
+  background:#fff;border:1px solid var(--line);font-size:12.5px;color:#3d443b;
+  box-shadow:0 1px 0 rgba(23,26,22,.03);
+}
+.chip b{font-family:var(--display);font-size:16px;color:var(--red);font-weight:700}
+.hero-cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:32px;align-items:center}
+.btn-primary{
+  position:relative;display:inline-flex;align-items:center;gap:10px;
+  padding:17px 30px;border-radius:2px;background:var(--red);color:#fff8ee;
+  font-size:14.5px;letter-spacing:.1em;text-decoration:none;font-weight:500;
+  box-shadow:0 14px 30px -14px rgba(143,42,30,.75);
+  transition:.35s cubic-bezier(.2,.8,.2,1);overflow:hidden;
+}
+.btn-primary::after{
+  content:"";position:absolute;inset:0;background:linear-gradient(100deg,transparent 20%,rgba(255,255,255,.28),transparent 80%);
+  transform:translateX(-120%);transition:.7s;
+}
+.btn-primary:hover{transform:translateY(-2px);background:var(--red-deep)}
+.btn-primary:hover::after{transform:translateX(120%)}
+.btn-ghost{
+  display:inline-flex;align-items:center;gap:8px;padding:16px 22px;border-radius:2px;
+  border:1px solid var(--forest);color:var(--forest);text-decoration:none;font-size:13.5px;
+  letter-spacing:.08em;transition:.3s;
+}
+.btn-ghost:hover{background:var(--forest);color:var(--paper)}
+
+/* hero collage */
+.collage{position:relative;height:min(520px,52vw);min-height:340px}
+@media(max-width:900px){.collage{height:min(420px,64vw)}}
+.collage figure{
+  position:absolute;overflow:hidden;background:var(--paper-2);
+  border:6px solid #fff;box-shadow:0 24px 50px -26px rgba(13,58,43,.55);
+  margin:0;
+}
+.collage img{width:100%;height:100%;object-fit:cover;display:block;filter:saturate(1.03)}
+.c1{width:52%;height:64%;left:2%;top:6%;transform:rotate(-4deg);z-index:3}
+.c2{width:44%;height:50%;right:0;top:0;transform:rotate(3.5deg);z-index:2}
+.c3{width:40%;height:46%;right:12%;bottom:2%;transform:rotate(-2deg);z-index:4}
+.seal{
+  position:absolute;left:-6px;bottom:8%;z-index:6;
+  width:112px;height:112px;border-radius:50%;
+  display:grid;place-items:center;text-align:center;
+  background:var(--forest);color:#f0e6cd;
+  border:1px dashed rgba(240,230,205,.5);
+  transform:rotate(-9deg);
+  font-family:var(--serif);font-size:13px;line-height:1.5;letter-spacing:.08em;
+  box-shadow:0 18px 34px -18px rgba(13,58,43,.7);
+}
+.seal b{display:block;font-family:var(--display);font-size:30px;font-weight:700;color:var(--gold-soft);letter-spacing:0}
+.seal span{display:block;font-size:11px;opacity:.72;letter-spacing:.2em;margin-top:2px}
+
+/* ---------- ticker ---------- */
+.ticker{
+  background:var(--forest-2);color:#efe4cb;overflow:hidden;
+  border-top:1px solid rgba(255,255,255,.08);border-bottom:1px solid rgba(255,255,255,.08);
+}
+.ticker-track{display:flex;width:max-content;animation:slide 42s linear infinite}
+.ticker:hover .ticker-track{animation-play-state:paused}
+.ticker-track span{
+  display:inline-flex;align-items:center;gap:22px;padding:13px 22px;
+  font-size:12.5px;letter-spacing:.22em;white-space:nowrap;font-weight:300;
+}
+.ticker-track i{color:var(--gold);font-style:normal;font-size:10px}
+@keyframes slide{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+
+/* ---------- section scaffolding ---------- */
+section{padding:clamp(56px,8vw,110px) 0}
+.sec-head{display:flex;align-items:flex-end;justify-content:space-between;gap:24px;border-bottom:1px solid var(--line);padding-bottom:20px;margin-bottom:clamp(30px,4vw,54px)}
+.sec-num{
+  font-family:var(--display);font-style:italic;font-size:13px;color:var(--gold);
+  letter-spacing:.14em;display:block;margin-bottom:12px;
+}
+h2.sec-title{
+  font-family:var(--serif);font-weight:900;font-size:clamp(28px,3.6vw,46px);
+  line-height:1.15;margin:0;color:var(--forest-2);letter-spacing:-.01em;
+}
+h2.sec-title small{display:block;font-family:var(--display);font-style:italic;font-weight:500;font-size:clamp(12px,1.4vw,15px);color:var(--gold);letter-spacing:.18em;margin-top:10px;text-transform:uppercase}
+.sec-desc{max-width:26em;font-size:13.5px;line-height:1.95;color:#5a6157;font-weight:300;text-align:right}
+@media(max-width:760px){.sec-head{flex-direction:column;align-items:flex-start}.sec-desc{text-align:left}}
+
+/* ---------- stats ---------- */
+.stats{display:grid;grid-template-columns:repeat(4,1fr);border:1px solid var(--line);background:rgba(255,255,255,.4)}
+@media(max-width:760px){.stats{grid-template-columns:repeat(2,1fr)}}
+.stat{padding:30px 24px;border-right:1px solid var(--line);position:relative}
+.stat:last-child{border-right:0}
+@media(max-width:760px){.stat:nth-child(2){border-right:0}.stat:nth-child(1),.stat:nth-child(2){border-bottom:1px solid var(--line)}}
+.stat .n{font-family:var(--display);font-size:clamp(34px,5vw,54px);font-weight:600;line-height:1;color:var(--forest);letter-spacing:-.02em}
+.stat .n sup{font-size:.42em;color:var(--red);vertical-align:super;margin-left:2px}
+.stat .k{margin-top:12px;font-size:12.5px;letter-spacing:.16em;color:#5a6157}
+.stat .note{margin-top:6px;font-size:11.5px;color:#8b8f85;font-weight:300}
+
+/* ---------- profile cards ---------- */
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);border:1px solid var(--line)}
+@media(max-width:940px){.cards{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:620px){.cards{grid-template-columns:1fr}}
+.card{
+  background:var(--paper);padding:30px 26px 28px;position:relative;
+  transition:.4s cubic-bezier(.2,.8,.2,1);overflow:hidden;
+}
+.card::before{
+  content:"";position:absolute;left:0;top:0;height:2px;width:0;background:var(--red);transition:.5s;
+}
+.card:hover{background:#fffdf7;transform:translateY(-2px)}
+.card:hover::before{width:100%}
+.card .idx{font-family:var(--display);font-style:italic;font-size:12.5px;color:var(--gold);letter-spacing:.1em}
+.card h3{font-family:var(--serif);font-size:20px;font-weight:700;margin:14px 0 0;color:var(--forest-2);line-height:1.4}
+.card p{margin:12px 0 0;font-size:13px;line-height:1.9;color:#525a50;font-weight:300}
+.card .tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:16px}
+.card .tags span{
+  font-size:11px;padding:4px 9px;border-radius:2px;background:rgba(13,58,43,.06);
+  color:var(--forest);letter-spacing:.04em;
+}
+.card .key{
+  margin-top:18px;padding-top:14px;border-top:1px dashed var(--line);
+  font-size:12px;line-height:1.8;color:var(--red-deep);
+}
+.card .key b{font-weight:600}
+
+/* ---------- formula band ---------- */
+.band{background:var(--forest);color:#eee3ca;position:relative;overflow:hidden}
+.band::before{
+  content:"MERRY";position:absolute;right:-4%;top:-14%;font-family:var(--display);font-style:italic;
+  font-size:clamp(140px,22vw,300px);color:rgba(255,255,255,.035);letter-spacing:-.04em;pointer-events:none;
+}
+.band .sec-title{color:#f4ebd6}
+.band .sec-num{color:var(--gold-soft)}
+.band .sec-desc{color:rgba(238,227,202,.65)}
+.band .sec-head{border-color:rgba(255,255,255,.14)}
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:clamp(16px,2.4vw,30px);position:relative;z-index:2}
+@media(max-width:860px){.steps{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:520px){.steps{grid-template-columns:1fr}}
+.step{border-top:1px solid rgba(255,255,255,.2);padding-top:18px}
+.step .s-n{font-family:var(--display);font-size:38px;font-weight:600;color:var(--gold-soft);line-height:1;opacity:.85}
+.step h4{font-family:var(--serif);font-size:17px;margin:14px 0 8px;font-weight:600}
+.step p{margin:0;font-size:12.5px;line-height:1.9;color:rgba(238,227,202,.66);font-weight:300}
+.band-quote{
+  margin-top:clamp(40px,5vw,64px);padding-top:28px;border-top:1px solid rgba(255,255,255,.14);
+  font-family:var(--serif);font-size:clamp(17px,2.2vw,24px);line-height:1.9;color:#f2e7cd;
+  max-width:36em;position:relative;z-index:2;
+}
+.band-quote em{font-style:normal;color:var(--gold-soft);border-bottom:1px solid rgba(217,189,138,.5);padding-bottom:2px}
+
+/* ---------- timeline ---------- */
+.timeline{position:relative;display:grid;grid-template-columns:repeat(4,1fr);gap:0;border-top:2px solid var(--forest)}
+@media(max-width:780px){.timeline{grid-template-columns:1fr;border-top:0;border-left:2px solid var(--forest)}}
+.tl{padding:22px 22px 0 0;position:relative}
+@media(max-width:780px){.tl{padding:0 0 26px 22px}}
+.tl::before{
+  content:"";position:absolute;left:0;top:-7px;width:11px;height:11px;border-radius:50%;
+  background:var(--paper);border:2px solid var(--red);
+}
+@media(max-width:780px){.tl::before{left:-7.5px;top:4px}}
+.tl .date{font-family:var(--display);font-size:13px;letter-spacing:.06em;color:var(--red);margin-bottom:10px}
+.tl h4{font-family:var(--serif);font-size:17.5px;margin:0 0 8px;color:var(--forest-2);font-weight:700}
+.tl p{margin:0;font-size:12.5px;line-height:1.95;color:#5a6157;font-weight:300}
+.tl .tagline{display:inline-block;margin-top:10px;font-size:11px;letter-spacing:.12em;color:var(--gold);border-bottom:1px solid rgba(185,145,74,.4);padding-bottom:2px}
+
+/* ---------- gallery ---------- */
+.gal-tabs{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:26px;align-items:center}
+.tab{
+  border:1px solid var(--line);background:transparent;padding:10px 20px;border-radius:999px;
+  font-size:12.5px;letter-spacing:.08em;color:#4b534a;cursor:pointer;transition:.3s;font-family:var(--sans);
+}
+.tab:hover{border-color:var(--forest);color:var(--forest)}
+.tab.on{background:var(--forest);color:#f2e9d6;border-color:var(--forest)}
+.gal-count{margin-left:auto;font-size:12px;color:#8b8f85;letter-spacing:.08em}
+.grid{display:grid;grid-template-columns:repeat(6,1fr);gap:8px}
+@media(max-width:1080px){.grid{grid-template-columns:repeat(5,1fr)}}
+@media(max-width:820px){.grid{grid-template-columns:repeat(4,1fr);gap:6px}}
+@media(max-width:520px){.grid{grid-template-columns:repeat(3,1fr);gap:5px}}
+.tile{
+  position:relative;aspect-ratio:1/1;overflow:hidden;background:var(--paper-2);
+  cursor:zoom-in;border:1px solid rgba(23,26,22,.06);
+}
+.tile img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .7s cubic-bezier(.2,.8,.2,1),filter .4s}
+.tile:hover img{transform:scale(1.06)}
+.tile::after{
+  content:"";position:absolute;inset:0;box-shadow:inset 0 0 0 0 var(--gold);
+  transition:.35s;pointer-events:none;
+}
+.tile:hover::after{box-shadow:inset 0 0 0 2px rgba(185,145,74,.85)}
+
+/* watermark */
+.wm{
+  position:absolute;inset:0;pointer-events:none;z-index:2;
+  background-image:url("data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20width%3D%27190%27%20height%3D%27128%27%3E%3Cg%20transform%3D%27rotate%28-30%2095%2064%29%27%3E%3Ctext%20x%3D%270%27%20y%3D%2744%27%20font-family%3D%27PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%27%20font-size%3D%2711.5%27%20letter-spacing%3D%271.6%27%20fill%3D%27rgba%28255%2C255%2C255%2C0.62%29%27%20stroke%3D%27rgba%280%2C0%2C0%2C0.28%29%27%20stroke-width%3D%270.55%27%3E%E5%9C%A3%E8%AF%9E%E7%88%86%E6%AC%BE%20%C2%B7%20%E9%80%89%E5%93%81%E5%8F%82%E8%80%83%3C%2Ftext%3E%3Ctext%20x%3D%270%27%20y%3D%2792%27%20font-family%3D%27PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%27%20font-size%3D%2711.5%27%20letter-spacing%3D%271.6%27%20fill%3D%27rgba%28255%2C255%2C255%2C0.62%29%27%20stroke%3D%27rgba%280%2C0%2C0%2C0.28%29%27%20stroke-width%3D%270.55%27%3E%E7%A6%81%E6%AD%A2%E7%9B%97%E5%9B%BE%20%C2%B7%20%E8%BF%9D%E8%80%85%E5%BF%85%E7%A9%B6%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fsvg%3E");
+  background-size:190px 128px;background-repeat:repeat;
+  opacity:.95;
+}
+.tile .badge{
+  position:absolute;right:0;bottom:0;z-index:3;
+  font-family:var(--display);font-size:9px;letter-spacing:.1em;
+  color:rgba(255,255,255,.92);background:rgba(10,44,33,.58);
+  padding:3px 7px;backdrop-filter:blur(2px);
+}
+.lb-stage{position:relative;display:inline-block;line-height:0}
+.lb-stage .wm{background-size:210px 142px}
+.tile .cap{
+  position:absolute;left:0;bottom:0;right:0;padding:14px 8px 7px;
+  font-family:var(--display);font-size:10px;letter-spacing:.12em;color:#fff;
+  background:linear-gradient(to top,rgba(10,44,33,.62),transparent);
+  opacity:0;transition:.35s;
+}
+.tile:hover .cap{opacity:1}
+.tile.fail{display:grid;place-items:center;background:
+  repeating-linear-gradient(45deg,rgba(13,58,43,.05) 0 6px,transparent 6px 12px),var(--paper-2)}
+.tile.fail span{display:block;font-family:var(--display);font-size:10px;color:#9aa094;letter-spacing:.12em}
+.tile > span{display:none}
+.tile.fail{cursor:default}
+.more-wrap{display:flex;justify-content:center;margin-top:34px}
+.btn-more{
+  border:1px solid var(--forest);background:transparent;color:var(--forest);
+  padding:14px 34px;border-radius:2px;font-size:13px;letter-spacing:.14em;cursor:pointer;
+  transition:.3s;font-family:var(--sans);
+}
+.btn-more:hover{background:var(--forest);color:var(--paper)}
+.gal-note{margin-top:22px;font-size:11.5px;color:#8b8f85;letter-spacing:.04em;text-align:center}
+
+
+/* ---------- listing path ---------- */
+.paths{display:grid;grid-template-columns:repeat(2,1fr);gap:clamp(14px,2vw,24px)}
+@media(max-width:820px){.paths{grid-template-columns:1fr}}
+.path-card{
+  border:1px solid var(--line);background:#fffdf7;padding:clamp(22px,3vw,32px);
+  position:relative;transition:.4s cubic-bezier(.2,.8,.2,1);overflow:hidden;
+}
+.path-card::after{
+  content:"";position:absolute;right:-40px;top:-40px;width:120px;height:120px;border-radius:50%;
+  background:radial-gradient(circle,rgba(185,145,74,.16),transparent 68%);transition:.5s;
+}
+.path-card:hover{transform:translateY(-3px);border-color:rgba(185,145,74,.6);box-shadow:0 22px 40px -30px rgba(13,58,43,.6)}
+.path-card:hover::after{transform:scale(1.5)}
+.ph{display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:relative;z-index:2}
+.ptag{
+  font-family:var(--display);font-style:italic;font-size:11px;letter-spacing:.16em;color:var(--gold);
+  border:1px solid rgba(185,145,74,.45);padding:3px 8px;border-radius:2px;white-space:nowrap;
+}
+.path-card h4{font-family:var(--serif);font-size:clamp(20px,2.4vw,25px);margin:0;color:var(--forest-2);font-weight:700}
+.pcount{font-size:11.5px;color:#8b8f85;letter-spacing:.06em}
+.crumbs{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin-top:22px;font-size:13px;color:#4b534a;position:relative;z-index:2}
+.crumbs i{color:var(--gold);font-style:normal;font-size:15px;line-height:1}
+.crumbs .last{background:var(--forest);color:#f2e9d6;padding:4px 10px;border-radius:2px;font-weight:500}
+.pfoot{
+  display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;
+  margin-top:24px;padding-top:16px;border-top:1px dashed var(--line);position:relative;z-index:2;
+}
+.owner{font-size:12px;color:#6c7468;letter-spacing:.04em}
+.owner b{color:var(--forest);font-weight:600;letter-spacing:.02em}
+.copy-path{
+  border:1px solid var(--forest);background:transparent;color:var(--forest);
+  font-size:11.5px;letter-spacing:.1em;padding:8px 15px;border-radius:2px;cursor:pointer;
+  transition:.3s;font-family:var(--sans);
+}
+.copy-path:hover{background:var(--forest);color:var(--paper)}
+.path-tip{
+  margin-top:28px;font-size:12.5px;color:#5a6157;line-height:1.95;
+  border-left:2px solid var(--red);padding-left:14px;
+}
+.path-tip b{color:var(--red-deep);font-weight:600}
+
+/* ---------- closing ---------- */
+.closing{
+  background:linear-gradient(160deg,var(--forest-2),#123b2d 55%,#0a2620);
+  color:#f2e8d0;position:relative;overflow:hidden;
+}
+.closing::before{
+  content:"";position:absolute;inset:0;
+  background-image:radial-gradient(circle at 15% 20%,rgba(185,145,74,.16),transparent 42%),radial-gradient(circle at 85% 80%,rgba(191,58,42,.22),transparent 46%);
+}
+.closing .inner{position:relative;z-index:2;display:grid;grid-template-columns:1.1fr .9fr;gap:clamp(30px,5vw,70px);align-items:center}
+@media(max-width:820px){.closing .inner{grid-template-columns:1fr}}
+.closing h2{
+  font-family:var(--serif);font-weight:900;font-size:clamp(30px,4.4vw,56px);line-height:1.16;margin:0;color:#f7eed7;
+}
+.closing h2 em{font-style:normal;color:var(--gold-soft)}
+.closing p{margin-top:22px;font-size:14px;line-height:2;color:rgba(242,232,208,.7);font-weight:300;max-width:30em}
+.checklist{list-style:none;padding:0;margin:28px 0 0;display:grid;gap:0}
+.checklist li{
+  display:flex;gap:14px;align-items:flex-start;padding:15px 0;border-top:1px solid rgba(255,255,255,.12);
+  font-size:13.5px;color:rgba(242,232,208,.85);line-height:1.7;
+}
+.checklist li:last-child{border-bottom:1px solid rgba(255,255,255,.12)}
+.checklist i{
+  flex:0 0 auto;width:19px;height:19px;border:1px solid rgba(217,189,138,.6);border-radius:50%;
+  display:grid;place-items:center;font-style:normal;font-size:10px;color:var(--gold-soft);margin-top:2px;
+}
+.closing .box{
+  border:1px solid rgba(255,255,255,.16);padding:clamp(24px,3vw,38px);
+  background:rgba(255,255,255,.03);backdrop-filter:blur(6px);
+}
+.closing .box .t{font-family:var(--display);font-style:italic;font-size:13px;letter-spacing:.16em;color:var(--gold-soft)}
+.closing .box .big{font-family:var(--display);font-size:clamp(52px,7vw,82px);line-height:1;margin:14px 0 6px;color:#f7eed7}
+.closing .box .big span{font-size:.26em;font-family:var(--serif);letter-spacing:.1em;color:rgba(242,232,208,.65);margin-left:8px}
+.closing .box .u{font-size:12px;letter-spacing:.16em;color:rgba(242,232,208,.5)}
+.btn-copy{
+  margin-top:26px;width:100%;padding:16px;border:0;border-radius:2px;cursor:pointer;
+  background:var(--gold);color:#20170a;font-size:13.5px;letter-spacing:.12em;font-weight:700;
+  transition:.3s;font-family:var(--sans);
+}
+.btn-copy:hover{background:#d9bd8a;transform:translateY(-2px)}
+.footer{padding:34px 0;border-top:1px solid var(--line);font-size:11.5px;color:#8b8f85;letter-spacing:.06em;display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap}
+
+/* lightbox */
+.lb{
+  position:fixed;inset:0;z-index:100;background:rgba(8,20,16,.94);
+  display:none;place-items:center;padding:24px;
+  backdrop-filter:blur(8px);
+}
+.lb.on{display:grid;animation:fade .3s}
+@keyframes fade{from{opacity:0}to{opacity:1}}
+.lb img{max-width:min(88vw,860px);max-height:80vh;object-fit:contain;box-shadow:0 40px 80px -30px #000}
+.lb .bar{position:absolute;top:20px;left:0;right:0;display:flex;justify-content:space-between;padding:0 84px 0 24px;color:#cfc6ad;font-size:12px;letter-spacing:.16em;font-family:var(--display)}
+.lb button{
+  background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.18);color:#efe6cf;
+  width:44px;height:44px;border-radius:50%;cursor:pointer;font-size:16px;transition:.25s;
+  display:grid;place-items:center;
+}
+.lb button:hover{background:var(--red);border-color:var(--red)}
+.lb .nav{position:absolute;top:50%;transform:translateY(-50%);display:flex;gap:10px}
+.lb .prev{left:16px}.lb .next{right:16px}
+.lb .close{position:absolute;top:16px;right:16px;z-index:3}
+
+.reveal{opacity:0;transform:translateY(26px);transition:opacity .9s cubic-bezier(.2,.8,.2,1),transform .9s cubic-bezier(.2,.8,.2,1)}
+.reveal.in{opacity:1;transform:none}
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <div class="wrap topbar-in">
+    <div class="brand"><span class="dot"></span><b>圣诞专项</b><span class="full">· 爆款画像</span></div>
+    <div class="topbar-right">
+      <div class="cd">距圣诞 <b id="cdNum">--</b> 天</div>
+      <a class="btn-mini" href="#gallery">爆款图库</a>
+    </div>
+  </div>
+</div>
+
+<!-- HERO -->
+<header class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <div class="eyebrow"><i></i>2026 圣诞季 · 类目拆解 · 纹身贴 / 面部装饰贴</div>
+      <h1 class="title">圣诞<span class="l2"><em>爆款</em>画像</span></h1>
+      <div class="title-sub">A Study of 317 Winning Listings</div>
+      <p class="lede">
+        我们把两个类目里跑得最好的 <b>317 个链接</b> 一张张主图翻了个遍：谁在卖、怎么拍、卖什么图案、靠什么让人点进来。
+        结论很直接——<b>需求已经验证过了，缺的只是你的链接。</b>距离圣诞只剩几周，现在上，还赶得上两波流量。
+      </p>
+      <div class="hero-meta">
+        <span class="chip">纹身贴 <b>188</b> 款</span>
+        <span class="chip">面部装饰贴 <b>129</b> 款</span>
+        <span class="chip">画像 <b>11</b> 类</span>
+      </div>
+      <div class="hero-cta">
+        <a class="btn-primary" href="#gallery">看爆款图库 →</a>
+        <a class="btn-ghost" href="#profile">先看爆款画像</a>
+      </div>
+    </div>
+    <div class="collage">
+      <figure class="c1"><img alt="爆款主图" data-src="T0"><div class="wm"></div></figure>
+      <figure class="c2"><img alt="爆款主图" data-src="T1"><div class="wm"></div></figure>
+      <figure class="c3"><img alt="爆款主图" data-src="F0"><div class="wm"></div></figure>
+      <div class="seal"><div><b id="sealNum">--</b>距圣诞<span>DAYS LEFT</span></div></div>
+    </div>
+  </div>
+</header>
+
+<div class="ticker">
+  <div class="ticker-track" id="ticker"></div>
+</div>
+
+<!-- 01 数据 -->
+<section id="data">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <div>
+        <span class="sec-num">(01) — The Numbers</span>
+        <h2 class="sec-title">先看盘子有多大<small>Demand is already proven</small></h2>
+      </div>
+      <p class="sec-desc">这不是一张需要你去教育市场的品类。圣诞节前，用户是带着明确需求来搜索的——他们只是还没搜到你的链接。</p>
+    </div>
+    <div class="stats reveal">
+      <div class="stat"><div class="n" data-count="317">0<sup>+</sup></div><div class="k">爆款链接样本</div><div class="note">两大子类目在售热销款</div></div>
+      <div class="stat"><div class="n" data-count="188">0</div><div class="k">纹身贴爆款</div><div class="note">身体 / 脸部 / 夜光 / 套装</div></div>
+      <div class="stat"><div class="n" data-count="129">0</div><div class="k">面部装饰贴爆款</div><div class="note">腮红贴 / 水钻 / 闪粉</div></div>
+      <div class="stat"><div class="n" data-count="11">0</div><div class="k">可复制的画像</div><div class="note">每一类都可直接照着做</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- 02 纹身贴画像 -->
+<section id="profile" style="padding-top:0">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <div>
+        <span class="sec-num">(02) — Category A</span>
+        <h2 class="sec-title">纹身贴：六种跑得动的款<small>Temporary Tattoos · 188 winners</small></h2>
+      </div>
+      <p class="sec-desc">这个类目的爆款高度集中在“图案密度”和“件数感”上。同样是圣诞元素，堆得满、给得多，转化就明显更好。</p>
+    </div>
+
+    <div class="cards reveal">
+      <article class="card">
+        <div class="idx">Portrait No. 01</div>
+        <h3>夜光 / UV 荧光款</h3>
+        <p>白天是一套普通卡通圣诞贴，关灯后整片发绿光。这类款在同类里辨识度最高，本质卖的是“惊喜感”和“派对入场券”。</p>
+        <div class="tags"><span>夜光发光</span><span>暗光对比</span><span>派对</span></div>
+        <div class="key"><b>主图必须：</b>同一张图里放“亮处 / 暗处”两组手臂，视觉反差就是点击率。</div>
+      </article>
+
+      <article class="card">
+        <div class="idx">Portrait No. 02</div>
+        <h3>百片级大套装</h3>
+        <p>主图角标直接打“140 PCS”“38 PCS”。用户对单片没有价格概念，但对“一大张”有——件数就是价值锚点。</p>
+        <div class="tags"><span>100+ 片</span><span>网格平铺</span><span>性价比</span></div>
+        <div class="key"><b>主图必须：</b>整版网格铺满画面，件数角标压在角落，别让图案互相打架。</div>
+      </article>
+
+      <article class="card">
+        <div class="idx">Portrait No. 03</div>
+        <h3>脸部弧形彩绘贴</h3>
+        <p>形态是顺着脸颊曲线的月牙形，不用剪、不用拼，撕下来直接贴。卖点是“像画上去的”，不是“贴上去的”。</p>
+        <div class="tags"><span>弧形贴合</span><span>彩绘感</span><span>出片</span></div>
+        <div class="key"><b>主图必须：</b>真人侧脸特写，藤蔓从鼻梁延到颧骨，让人第一眼以为是彩绘妆。</div>
+      </article>
+
+      <article class="card">
+        <div class="idx">Portrait No. 04</div>
+        <h3>多手臂上身陈列</h3>
+        <p>两三只手臂并排，每只贴不同款式。一张图讲完“我有多少种可选”，比任何文案都快。</p>
+        <div class="tags"><span>真人上身</span><span>多款同框</span><span>降低选择成本</span></div>
+        <div class="key"><b>主图必须：</b>手臂角度统一、光线统一，否则会显廉价；皮肤要干净。</div>
+      </article>
+
+      <article class="card">
+        <div class="idx">Portrait No. 05</div>
+        <h3>亲子 · 派对款</h3>
+        <p>圣诞老人、驯鹿、雪人、姜饼人全家福式排布，主打“一盒够一家人用”。买家不是一个人，是一群人。</p>
+        <div class="tags"><span>亲子</span><span>派对伴手礼</span><span>安全可洗</span></div>
+        <div class="key"><b>主图必须：</b>露出“可水洗 / 儿童可用”信息，这是家长下单前的最后一道顾虑。</div>
+      </article>
+
+      <article class="card">
+        <div class="idx">Portrait No. 06</div>
+        <h3>短句文字款</h3>
+        <p>“HO HO HO”“Merry Christmas”这类纯文字贴，图案成本最低，冲动购买属性最强，适合做低价引流款。</p>
+        <div class="tags"><span>文字款</span><span>低单价</span><span>引流</span></div>
+        <div class="key"><b>主图必须：</b>字够大、够黑，缩略图状态下也能读清——手机端只看得到 3 秒。</div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- 03 面部装饰贴 -->
+<section style="padding-top:0">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <div>
+        <span class="sec-num">(03) — Category B</span>
+        <h2 class="sec-title">面部装饰贴：卖的是“上镜”<small>Face Decor · 129 winners</small></h2>
+      </div>
+      <p class="sec-desc">这个类目的用户不是在做手工，是在准备一张照片。所有爆款主图都在回答同一个问题：贴完我好看吗？</p>
+    </div>
+
+    <div class="cards reveal">
+      <article class="card">
+        <div class="idx">Portrait No. 07</div>
+        <h3>腮红贴 / 闪片底贴</h3>
+        <p>带闪粉底色的面颊贴，图案是圣诞树、拐杖糖、彩灯串。本质是“免上妆的节日腮红”，化妆小白也能用。</p>
+        <div class="tags"><span>腮红贴</span><span>免上妆</span><span>少女感</span></div>
+        <div class="key"><b>主图必须：</b>正面近景脸，腮红位置清晰，下面平铺两款实物证明“一盒有两版”。</div>
+      </article>
+
+      <article class="card">
+        <div class="idx">Portrait No. 08</div>
+        <h3>眼周水钻 / 眉形贴</h3>
+        <p>点阵雪花、星芒沿眉骨排列，做成 12 款眉形矩阵。用户买的是“妆容升级”，愿意为效果多付一点。</p>
+        <div class="tags"><span>水钻点阵</span><span>眉形轮廓</span><span>妆容加分</span></div>
+        <div class="key"><b>主图必须：</b>半脸特写 + 侧面打光，让钻有反光；款式矩阵放同一张图右侧。</div>
+      </article>
+
+      <article class="card">
+        <div class="idx">Portrait No. 09</div>
+        <h3>冷调闪粉款</h3>
+        <p>蓝白雪花的冷色调，在一片红绿里天然跳出来。同一个词下，颜色差异化比图案差异化更容易被看见。</p>
+        <div class="tags"><span>冷调蓝白</span><span>闪粉</span><span>差异化</span></div>
+        <div class="key"><b>主图必须：</b>不要用红色背景衬托，用深底才能让蓝白闪起来。</div>
+      </article>
+
+      <article class="card">
+        <div class="idx">Portrait No. 10</div>
+        <h3>迷你贴 · 轨迹排列</h3>
+        <p>小尺寸图案连成一条“Happy”路径，从颧骨走到太阳穴。卖点不是单品，是“自己排的”那种参与感。</p>
+        <div class="tags"><span>迷你贴</span><span>轨迹排列</span><span>DIY</span></div>
+        <div class="key"><b>主图必须：</b>把排列方式拍出来，并在角落给一张“随便贴也好看”的参考。</div>
+      </article>
+
+      <article class="card">
+        <div class="idx">Portrait No. 11</div>
+        <h3>编号分版套装</h3>
+        <p>“SDB-01 至 SDB-06”逐版编号，用户可以按喜好挑，也让链接天然具备多 SKU 变体空间。</p>
+        <div class="tags"><span>编号分版</span><span>变体丰富</span><span>可选</span></div>
+        <div class="key"><b>主图必须：</b>编号标注清楚、字要小但可读，让“有得选”这件事被看见。</div>
+      </article>
+
+      <article class="card" style="background:var(--forest);color:#eee3ca">
+        <div class="idx" style="color:var(--gold-soft)">One more thing</div>
+        <h3 style="color:#f6edda">两个类目可以互卖</h3>
+        <p style="color:rgba(238,227,202,.72)">买了纹身贴的人，大概率也在找脸贴；反之亦然。做捆绑、做加购、做同一套主图风格，转化率会一起涨。</p>
+        <div class="tags"><span style="background:rgba(255,255,255,.1);color:#f0e6cd">捆绑</span><span style="background:rgba(255,255,255,.1);color:#f0e6cd">关联流量</span><span style="background:rgba(255,255,255,.1);color:#f0e6cd">套装</span></div>
+        <div class="key" style="color:var(--gold-soft);border-color:rgba(255,255,255,.2)"><b>一句话：</b>同样的货，多一个链接位，就多一次被搜到的机会。</div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- 04 主图公式 -->
+<section class="band">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <div>
+        <span class="sec-num">(04) — The Formula</span>
+        <h2 class="sec-title">爆款主图的四件事<small>What every winning image does</small></h2>
+      </div>
+      <p class="sec-desc">拆了三百多张图之后，能被归进爆款的，几乎都同时具备下面四点。缺一个，点击率就掉一档。</p>
+    </div>
+    <div class="steps reveal">
+      <div class="step"><div class="s-n">01</div><h4>半秒识品类</h4><p>画面里必须出现贴纸本体，不能只有一张漂亮的脸。用户滑得很快，认不出是什么就划走了。</p></div>
+      <div class="step"><div class="s-n">02</div><h4>真人做效果</h4><p>手臂、脸颊、手背，一定要有真实上身的锚点。没有上身图，用户无法判断大小和贴合度。</p></div>
+      <div class="step"><div class="s-n">03</div><h4>角标做价值</h4><p>件数、款式数、发光、可水洗——用角标说出来。卖点写成角标，比写进标题更有效。</p></div>
+      <div class="step"><div class="s-n">04</div><h4>场景做季节</h4><p>圣诞树、暖黄灯串、红毛衣。背景不是装饰，是在告诉用户“现在就该买”。</p></div>
+    </div>
+    <div class="band-quote reveal">“<em>节日品的窗口期只有三周。</em>主图差一点，不是少卖一点，是整年错过这一波。”</div>
+  </div>
+</section>
+
+<!-- 05 上新路径 -->
+<section id="path">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <div>
+        <span class="sec-num">(05) — Listing Path</span>
+        <h2 class="sec-title">链接挂这里，别挂错<small>Where to list it</small></h2>
+      </div>
+      <p class="sec-desc">类目挂错等于没上——流量分发、活动报名、比价参照全都对不上。两条路径直接复制，负责人就在下面。</p>
+    </div>
+
+    <div class="paths reveal">
+      <div class="path-card" data-copy="美容和个人护理/彩妆/身体化妆品/纹身贴">
+        <div class="ph"><span class="ptag">Path A</span><h4>纹身贴</h4><span class="pcount">188 款爆款已验证</span></div>
+        <div class="crumbs">
+          <span>美容和个人护理</span><i>›</i><span>彩妆</span><i>›</i><span>身体化妆品</span><i>›</i><span class="last">纹身贴</span>
+        </div>
+        <div class="pfoot">
+          <span class="owner">类目负责人 · <b>迢之 niki.chen</b></span>
+          <button class="copy-path">复制路径</button>
+        </div>
+      </div>
+
+      <div class="path-card" data-copy="美容和个人护理/彩妆/身体化妆品/面部装饰贴">
+        <div class="ph"><span class="ptag">Path B</span><h4>面部装饰贴</h4><span class="pcount">129 款爆款已验证</span></div>
+        <div class="crumbs">
+          <span>美容和个人护理</span><i>›</i><span>彩妆</span><i>›</i><span>身体化妆品</span><i>›</i><span class="last">面部装饰贴</span>
+        </div>
+        <div class="pfoot">
+          <span class="owner">类目负责人 · <b>迢之 niki.chen</b></span>
+          <button class="copy-path">复制路径</button>
+        </div>
+      </div>
+    </div>
+
+    <p class="path-tip reveal"><b>一个常见错误：</b>把脸贴挂进纹身贴，或把纹身贴挂进彩妆其它叶子类目。前者会被判定错放，后者根本进不了圣诞活动的选品池。</p>
+  </div>
+</section>
+
+<!-- 06 节奏 -->
+<section>
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <div>
+        <span class="sec-num">(06) — The Timeline</span>
+        <h2 class="sec-title">现在上，正好赶上两波<small>Listing calendar · Nov → Dec</small></h2>
+      </div>
+      <p class="sec-desc">圣诞的搜索高峰在 12 月前两周，但链接权重需要时间积累。今天上架，才有机会吃到峰值。</p>
+    </div>
+    <div class="timeline reveal">
+      <div class="tl"><div class="date">11.05 — 11.15</div><h4>铺量占坑</h4><p>先把 30–50 个 SKU 上齐，覆盖夜光、套装、脸贴三条主线，价格带打宽，别只挂一个款。</p><span class="tagline">关键词：先有链接</span></div>
+      <div class="tl"><div class="date">11.16 — 11.30</div><h4>测图测款</h4><p>同一款换两三版主图跑，看点击率和加购。把你最好的一张图留给主推款。</p><span class="tagline">关键词：看数据</span></div>
+      <div class="tl"><div class="date">12.01 — 12.15</div><h4>冲量放大</h4><p>爆款加库存、开多件优惠、做纹身贴 + 脸贴捆绑。这两周决定整季的量。</p><span class="tagline">关键词：别断货</span></div>
+      <div class="tl"><div class="date">12.16 — 12.25</div><h4>最后一波</h4><p>主打现货、强调“到货即用”，明示发货截止时间。此时买的人，都是急用的。</p><span class="tagline">关键词：现货即发</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- 06 图库 -->
+<section id="gallery" style="background:var(--paper-2);border-top:1px solid var(--line);border-bottom:1px solid var(--line)">
+  <div class="wrap">
+    <div class="sec-head reveal" style="border-color:rgba(23,26,22,.1)">
+      <div>
+        <span class="sec-num">(07) — The Lookbook</span>
+        <h2 class="sec-title">317 张爆款主图<small>Click any image to view</small></h2>
+      </div>
+      <p class="sec-desc">全部来自当前热销链接的真实主图。看得上的款，直接照着打样、照着拍。</p>
+    </div>
+
+    <div class="gal-tabs reveal">
+      <button class="tab on" data-cat="all">全部 <span id="cAll"></span></button>
+      <button class="tab" data-cat="T">纹身贴 <span id="cT"></span></button>
+      <button class="tab" data-cat="F">面部装饰贴 <span id="cF"></span></button>
+      <div class="gal-count" id="galCount"></div>
+    </div>
+
+    <div class="grid" id="grid"></div>
+
+    <div class="more-wrap"><button class="btn-more" id="moreBtn">展开更多</button></div>
+    <div class="gal-note">图片版权归原链接所有，仅作选品与主图参考使用</div>
+  </div>
+</section>
+
+<!-- 07 closing -->
+<section class="closing">
+  <div class="wrap inner">
+    <div class="reveal">
+      <h2>爆款不是猜出来的，<br>是<em>照着做</em>出来的。</h2>
+      <p>该验证的都验证过了，该拆的也拆完了。剩下的动作只有三个：上链接、拍主图、盯库存。距离圣诞的窗口，一天都不会多给。</p>
+      <ul class="checklist">
+        <li><i>1</i><span>今晚先上 10 个 SKU，按指定路径挂到纹身贴 / 面部装饰贴叶子类目</span></li>
+        <li><i>2</i><span>主图按“本体 + 真人 + 角标 + 场景”四要素重拍一版</span></li>
+        <li><i>3</i><span>所有主图统一加水印，别让自己的图变成别人的爆款</span></li>
+        <li><i>4</i><span>12 月前把库存备到位，别在最旺的两周断货</span></li>
+      </ul>
+    </div>
+    <div class="box reveal">
+      <div class="t">Countdown to Christmas</div>
+      <div class="big"><span id="bigNum">--</span><span>DAYS</span></div>
+      <div class="u">窗口期不等人 · 每推迟一周，少一波流量</div>
+      <button class="btn-copy" id="copyBtn">复制上新清单</button>
+    </div>
+  </div>
+</section>
+
+<footer class="wrap footer">
+  <div>2026 圣诞专项 · 纹身贴 &amp; 面部装饰贴 爆款画像</div>
+  <div>类目负责人 · 迢之 niki.chen　|　数据来源：在售热销链接主图 · 共 317 款</div>
+</footer>
+
+<div class="lb" id="lb">
+  <div class="bar"><span id="lbCap">—</span><span id="lbIdx">—</span></div>
+  <button class="close" id="lbClose">✕</button>
+  <button class="prev nav" id="lbPrev">‹</button>
+  <div class="lb-stage"><img id="lbImg" alt="爆款主图"><div class="wm"></div></div>
+  <button class="next nav" id="lbNext">›</button>
+</div>
+
+<script>
+const TATTOO = ["https://img.kwcdn.com/product/fancy/a0e353bf-dc76-4595-9f26-52e7a76bc12a.jpg", "https://img.kwcdn.com/product/fancy/735a0523-9f93-4654-a5cb-386737396b15.jpg", "https://img.kwcdn.com/product/fancy/0368da99-b064-4447-86cf-49fc7cca64f1.jpg", "https://img.kwcdn.com/product/algo_check/auto/a0b768d95ec489c89379fdac184890b8_1760891982270.jpg", "https://img.kwcdn.com/product/fancy/85e83410-a3a5-4664-aff2-44f76f39a235.jpg", "https://img.kwcdn.com/product/fancy/8b3afc46-d560-43e4-9f6c-7a8e385416fe.jpg", "https://img.kwcdn.com/product/fancy/094ebb64-f9c0-4bfa-8c9b-048b615c9577.jpg", "https://img.kwcdn.com/product/fancy/1792cd83-d38b-4eee-bc9f-80872026f88b.jpg", "https://img.kwcdn.com/product/fancy/9a2a3819-5b79-4b42-9438-6cfc80ac54ab.jpg", "https://img.kwcdn.com/product/fancy/a706aa76-8915-4a66-b4e0-11c621c28bba.jpg", "https://img.kwcdn.com/product/fancy/d2ed42cd-7866-48a6-a042-4e6e0f2f1a0d.jpg", "https://img.kwcdn.com/product/fancy/8f87b8da-7bd4-47b6-a065-9900dd679369.jpg", "https://img.kwcdn.com/product/fancy/960a8cb2-e0c0-477a-b6a3-5ef3d97c2489.jpg", "https://img.kwcdn.com/product/fancy/bec564d1-860a-47ca-8148-6d4c44b1f625.jpg", "https://img.kwcdn.com/product/fancy/ce91cf77-977e-4c16-aea8-d439abfbb77b.jpg", "https://img.kwcdn.com/product/open/b0b92b9d15c34d3eae70b39f9955f14e-goods.jpeg", "https://img.kwcdn.com/product/fancy/be6cfcc4-76ee-48d3-a507-c774087f395e.jpg", "https://img.kwcdn.com/product/fancy/51ba352f-67c4-4c3e-b221-65d224473de7.jpg", "https://img.kwcdn.com/product/fancy/93f97e68-f56c-4ac3-866d-d3ea92fc810b.jpg", "https://img.kwcdn.com/product/fancy/b9264535-c2b6-4832-add0-913b4ccc344b.jpg", "https://img.kwcdn.com/product/algo_check/auto/28815c679a48279ab89abec1975b788f_1726988558648.jpg", "https://img.kwcdn.com/product/fancy/fdfa70fa-85fd-45a2-8cb5-e50cff1b58cc.jpg", "https://img.kwcdn.com/product/fancy/1387a053-ac9b-40f7-b766-e443a4d5c9db.jpg", "https://img.kwcdn.com/product/fancy/c2616dff-041d-4853-a75a-f83afd88aaf6.jpg", "https://img.kwcdn.com/product/fancy/17329405-75c1-4fce-b5b0-61ecffcecff1.jpg", "https://img.kwcdn.com/product/fancy/3e82e9da-2b05-45a6-b9d0-bffd59ed3d37.jpg", "https://img.kwcdn.com/product/fancy/941c43cc-265e-4015-838f-f8ea6cc07cd7.jpg", "https://img.kwcdn.com/product/fancy/fd32d674-72c6-4e57-a831-d6bb9dd3786c.jpg", "https://img.kwcdn.com/product/open/2598a24b6aba4ac2b4015f2a5af307b7-goods.jpeg", "https://img.kwcdn.com/product/fancy/34146440-5ec1-47d4-a3e5-e93cee8cb504.jpg", "https://img.kwcdn.com/product/fancy/c64e0d4e-a508-475c-bd33-0f31408d575d.jpg", "https://img.kwcdn.com/product/fancy/df0fc155-84d2-4353-bca0-ccfeb0269cb9.jpg", "https://img.kwcdn.com/product/fancy/50612b6b-de23-46dc-a2aa-96dcc2803fa4.jpg", "https://img.kwcdn.com/product/fancy/b3b732b5-2d68-4128-9127-303f987e4aa7.jpg", "https://img.kwcdn.com/product/fancy/d3155902-623a-46e3-b27f-641f637163d9.jpg", "https://img.kwcdn.com/product/fancy/ba7a6bcb-a504-450f-ba2e-872e89f7a8ff.jpg", "https://img.kwcdn.com/product/fancy/0666ac69-d254-4dbc-8f8c-49dc3567e6ed.jpg", "https://img.kwcdn.com/product/fancy/59a788a1-7815-4d8c-9d6c-24f7e1a4dac7.jpg", "https://img.kwcdn.com/product/fancy/d28fe6ad-4a98-4767-b842-c69a40e6d66f.jpg", "https://img.kwcdn.com/product/fancy/ab55ba66-1a90-4335-8519-d467c253763a.jpg", "https://img.kwcdn.com/product/fancy/90177849-ff6f-4673-a08c-27518dc54a4e.jpg", "https://img.kwcdn.com/product/fancy/70c885e5-bb25-4f04-abb4-a1bf8ed4a87d.jpg", "https://img.kwcdn.com/product/fancy/2c1970ca-3b82-45a5-aa3d-a0bb32a7629f.jpg", "https://img.kwcdn.com/product/algo_check/auto/88a57cad5c8adf0c706bb371de30db42_1792489249680.jpg", "https://img.kwcdn.com/product/fancy/24165d9f-08e5-43c0-8e3f-2fb6d3be9657.jpg", "https://img.kwcdn.com/product/fancy/e19003d3-7089-4725-a195-acbf11a1fd24.jpg", "https://img.kwcdn.com/product/fancy/2378db56-8e89-4d64-8b8a-e6dbf387df05.jpg", "https://img.kwcdn.com/product/fancy/f567de87-b5e3-4cbc-be96-c3b2c8fa4984.jpg", "https://img.kwcdn.com/product/fancy/ea0fa777-e02c-4032-8181-8422e07a8458.jpg", "https://img.kwcdn.com/product/fancy/5bc5a566-d442-4678-95e3-107b3a1ba52d.jpg", "https://img.kwcdn.com/product/fancy/fa65d562-e346-4188-8271-a32c4be663f9.jpg", "https://img.kwcdn.com/product/fancy/5fec3dcb-7ac4-49d3-bc85-b761ff0d7503.jpg", "https://img.kwcdn.com/product/fancy/ab06465d-55cf-4a9d-b159-92aa26761ca8.jpg", "https://img.kwcdn.com/product/fancy/597766ed-4475-4adc-ac1f-eaff8251533a.jpg", "https://img.kwcdn.com/product/fancy/ceb91499-99c9-41da-808c-2628dcad417a.jpg", "https://img.kwcdn.com/product/open/7a6c2781c32f4dd7a2ada7d12da9bebe-goods.jpeg", "https://img.kwcdn.com/product/fancy/90c79c07-45e2-4906-a321-164b16881176.jpg", "https://img.kwcdn.com/product/fancy/d0ff85c7-11cb-48b4-b38e-6c2a6a277c74.jpg", "https://img.kwcdn.com/product/fancy/9744c89c-0f2f-42ca-bded-87771d85dc9b.jpg", "https://img.kwcdn.com/product/fancy/8eb74965-5ceb-49c1-88fd-3ae0e6e6e27d.jpg", "https://img.kwcdn.com/product/fancy/9595c68b-8017-4d18-8739-27159443e61a.jpg", "https://img.kwcdn.com/product/fancy/1277ac28-3693-4358-a0fe-1ef1a1c1e7e5.jpg", "https://img.kwcdn.com/product/fancy/9239d3e5-128b-4960-8a24-80cb06e9a67e.jpg", "https://img.kwcdn.com/product/fancy/e89da187-f97a-419e-8943-6a9ff54fc278.jpg", "https://img.kwcdn.com/product/fancy/bf83a6a1-f2e8-49d9-ad0f-e58097d3911c.jpg", "https://img.kwcdn.com/product/fancy/dedf2d9f-834a-425b-87e1-16d8354aad31.jpg", "https://img.kwcdn.com/product/fancy/316d2323-eac3-4555-b7d7-54674114538e.jpg", "https://img.kwcdn.com/product/fancy/e01946fb-ec10-487f-a336-39ecc413eb9d.jpg", "https://img.kwcdn.com/product/fancy/af3a5ddd-bc71-4afd-aee4-e946dd34446c.jpg", "https://img.kwcdn.com/product/fancy/d4b45649-d811-4b65-bea9-e217e7936d4a.jpg", "https://img.kwcdn.com/product/fancy/96a5bd3b-49d0-44ae-98bf-4f1fbe287d8f.jpg", "https://img.kwcdn.com/product/fancy/9607ec82-ec73-4d11-ac67-26fafa9fabcd.jpg", "https://img.kwcdn.com/product/fancy/b9ca9b37-2bdb-4a38-82d5-86e2550e33f8.jpg", "https://img.kwcdn.com/product/algo_check/auto/100b18a5a39efe9c9a21ac3da0085310_1792144287436.jpg", "https://img.kwcdn.com/product/fancy/b1fea4a3-eac5-4923-aaaf-0f1eb601b446.jpg", "https://img.kwcdn.com/product/fancy/17825ce5-870d-4d6e-a1a8-491d03003590.jpg", "https://img.kwcdn.com/product/fancy/b159247b-6152-4723-b063-35cf65050fdc.jpg", "https://img.kwcdn.com/product/fancy/334c9bf7-78b3-4100-98f2-0e3ff60dc272.jpg", "https://img.kwcdn.com/product/fancy/1b26792d-3897-4c8b-8b89-2854b7824b52.jpg", "https://img.kwcdn.com/product/fancy/ee49e34b-439f-40ca-a339-44765bbcf029.jpg", "https://img.kwcdn.com/product/fancy/03566d42-3030-4af7-8c64-26bfc548b710.jpg", "https://img.kwcdn.com/product/open/022a0c22d6e744098fdd4e3922bed5ea-goods.jpeg", "https://img.kwcdn.com/product/fancy/bd35d9bb-3f0d-46d9-ac51-ea1959848bf1.jpg", "https://img.kwcdn.com/product/fancy/a5ce7a42-8a9f-4baf-a33c-b3a1dc3a1cc0.jpg", "https://img.kwcdn.com/product/fancy/186afa12-682a-4492-ae4c-ffaf454b1faa.jpg", "https://img.kwcdn.com/product/fancy/016927c5-68ea-49de-ad2e-3b0c9dfd6f9f.jpg", "https://img.kwcdn.com/product/fancy/2d07d915-33e7-404f-8185-29d7bf53dd52.jpg", "https://img.kwcdn.com/product/fancy/61c0bfe3-ce4f-4ddb-8f42-067d088d0df7.jpg", "https://img.kwcdn.com/product/fancy/11284bb9-5c2b-444a-be81-bdd284135e18.jpg", "https://img.kwcdn.com/product/fancy/6256e31c-33cb-4f62-9847-82ec62e9ce34.jpg", "https://img.kwcdn.com/product/fancy/6967c3ab-f6cf-4b4e-bd25-ff95247ee39d.jpg", "https://img.kwcdn.com/product/fancy/fed8a43a-23cb-4d44-93ab-8fbcb505a48b.jpg", "https://img.kwcdn.com/product/algo_check/auto/a379594d48f6d1790cafc5cbe1f95390_1784529890475.jpg", "https://img.kwcdn.com/product/fancy/31f4bbd9-59fb-41ec-9cbe-084e49cb64f9.jpg", "https://img.kwcdn.com/product/fancy/ea7eba7e-fade-4ad0-b042-891d69a28540.jpg", "https://img.kwcdn.com/product/algo_check/auto/9f8e5cab793dd37bcd0c112477d8551b_1729105673428.jpg", "https://img.kwcdn.com/product/Fancyalgo/VirtualModelMatting/075bfea0d27772aff37dfa4cf2929d16.jpg", "https://img.kwcdn.com/product/fancy/08b5104b-77a7-4188-8612-9df2085be4b3.jpg", "https://img.kwcdn.com/product/fancy/c1fd2945-f1df-4f87-bf2c-48d808ed3ba8.jpg", "https://img.kwcdn.com/product/fancy/e3f0806f-3227-479a-932f-272a5aea6ff8.jpg", "https://img.kwcdn.com/product/fancy/9334c4b8-ccdb-4e0c-9476-4981beca1e9c.jpg", "https://img.kwcdn.com/product/fancy/77dbd38e-d2a5-4f14-8c9f-7fc20b269c98.jpg", "https://img.kwcdn.com/product/fancy/a1e252cc-6871-4a46-a90b-25bcfb717676.jpg", "https://img.kwcdn.com/product/fancy/f3e3ad79-1975-45ea-9684-8d5a302c36a4.jpg", "https://img.kwcdn.com/product/fancy/d65a27ea-9e19-4d80-b3ab-e67a169e220e.jpg", "https://img.kwcdn.com/product/fancy/6e5a06ec-baee-454d-ac77-216eee344341.jpg", "https://img.kwcdn.com/product/fancy/0ee1be02-a226-4075-991f-457ecf54ac77.jpg", "https://img.kwcdn.com/product/fancy/dd80084f-06a3-4149-9298-ded356638477.jpg", "https://img.kwcdn.com/product/fancy/3141898c-067e-4ba6-9834-1f703261a8de.jpg", "https://img.kwcdn.com/product/fancy/98586075-bca4-4b08-a328-a03bec9b0dc7.jpg", "https://img.kwcdn.com/product/fancy/372e09d5-799d-4892-b97b-ad6b5f9a1757.jpg", "https://img.kwcdn.com/product/fancy/4f1424ec-7f99-48a1-9de0-32b08ddac123.jpg", "https://img.kwcdn.com/product/fancy/2732b7ed-30b6-4eb7-b782-77595dccbcc9.jpg", "https://img.kwcdn.com/product/fancy/e2718da3-ffcc-4619-8f1c-4b644b9da21a.jpg", "https://img.kwcdn.com/product/fancy/8531d171-023c-46af-9d70-3032ed4aa64b.jpg", "https://img.kwcdn.com/product/fancy/d9c7c446-1c10-4855-a12e-a0b6a66eaab3.jpg", "https://img.kwcdn.com/product/fancy/b54de6c8-9f99-4466-91d2-f7a48336ffb0.jpg", "https://img.kwcdn.com/product/open/2ef23d138865441aab58373cde8399b8-goods.jpeg", "https://img.kwcdn.com/product/fancy/1b393a9a-17fd-47c4-97ec-b88ee2b8b612.jpg", "https://img.kwcdn.com/product/fancy/2d2d8e71-ed79-4bcb-9e52-9d1a60122164.jpg", "https://img.kwcdn.com/product/fancy/2cb31913-725c-4fef-b04b-be311b087ed7.jpg", "https://img.kwcdn.com/product/fancy/0fd26c56-11f6-4071-bd13-808d8a833c99.jpg", "https://img.kwcdn.com/product/fancy/48d7e47e-cd53-48bc-b922-9102c92785b9.jpg", "https://img.kwcdn.com/product/fancy/1e0ee22c-16dc-4177-bafa-c4f1545f1bd7.jpg", "https://img.kwcdn.com/product/Fancyalgo/VirtualModelMatting/e4953454bf5c3e281d01382adc9e6df9.jpg", "https://img.kwcdn.com/product/fancy/d3a23cbb-08c2-4719-a737-36118b2c7763.jpg", "https://img.kwcdn.com/product/fancy/78e08662-b158-4b9e-a126-d0e7f3fa50d4.jpg", "https://img.kwcdn.com/product/fancy/66450ef9-1be2-498e-b9d9-fa32aabca365.jpg", "https://img.kwcdn.com/product/fancy/f7450fcc-8f23-4f83-8901-7d3612987335.jpg", "https://img.kwcdn.com/product/fancy/e8100761-3908-4814-b4a8-c7513ded8fbd.jpg", "https://img.kwcdn.com/product/fancy/ee49ecdf-f495-45d5-a4f0-dd7562caf44e.jpg", "https://img.kwcdn.com/product/fancy/c3e01d32-a5fd-4517-ab72-3ffb31676be2.jpg", "https://img.kwcdn.com/product/fancy/36d17596-8806-4dbf-ac8c-b223ce045c70.jpg", "https://img.kwcdn.com/product/fancy/beeb4bc5-09f2-449c-aad7-decea25b6f28.jpg", "https://img.kwcdn.com/product/fancy/421b930f-57e0-4d37-847d-08cec74ab681.jpg", "https://img.kwcdn.com/product/fancy/69981679-0682-4038-950e-0dbb2868fd88.jpg", "https://img.kwcdn.com/product/fancy/48e012c0-0fb7-475d-b696-e6ac885b91c1.jpg", "https://img.kwcdn.com/product/fancy/3b6bd939-095a-4e0a-a259-cc763f120ca0.jpg", "https://img.kwcdn.com/product/fancy/a3cce2e2-5bad-4701-a88c-6c73b9834500.jpg", "https://img.kwcdn.com/product/fancy/7b0acdf3-4878-4521-8092-b53607ed602e.jpg", "https://img.kwcdn.com/product/open/28fc7ce9105b4fd294287b9741cbec47-goods.jpeg", "https://img.kwcdn.com/product/fancy/f089e324-91ce-40e9-9840-9ac955dd3c7b.jpg", "https://img.kwcdn.com/product/algo_check/auto/ca060b81c9919a2e9bb3c49a6efafd1b_1793157626692.jpg", "https://img.kwcdn.com/product/fancy/5c7b2085-9f59-42a1-88be-965b1b685460.jpg", "https://img.kwcdn.com/product/fancy/7fbda843-c731-4fd6-b874-c56226a19734.jpg", "https://img.kwcdn.com/product/open/b5a67e8ccf694d8b97fd27ac30c4e051-goods.jpeg", "https://img.kwcdn.com/product/open/8b1b10e9b61c4a02b5d3d03da461c0ee-goods.jpeg", "https://img.kwcdn.com/product/open/3754ba6a46ea4db6824874a94fa961db-goods.jpeg", "https://img.kwcdn.com/product/open/b994e9b9899b4164a7645823c2e35982-goods.jpeg", "https://img.kwcdn.com/product/fancy/ab7967aa-ead4-4569-a9fa-4522a82063ef.jpg", "https://img.kwcdn.com/product/fancy/15139c7c-f3d8-4cae-b2d3-938c37ad330c.jpg", "https://img.kwcdn.com/product/algo_check/auto/6f8e95f74214de18ed2ff27b4a3507b4_1792950821249.jpg", "https://img.kwcdn.com/product/fancy/bfdd6adb-b9f6-4014-ae6f-60a826d2d6b6.jpg", "https://img.kwcdn.com/product/fancy/065dfdcb-c4ec-4217-b446-6b68cb4cc8de.jpg", "https://img.kwcdn.com/product/fancy/30b9666e-d26e-41da-9039-11bf716e4a56.jpg", "https://img.kwcdn.com/product/fancy/ae3c6c46-65c8-4a61-8c1b-d13d385021d8.jpg", "https://img.kwcdn.com/product/fancy/ff646dcc-f029-4df2-9fab-667f2f69b49e.jpg", "https://img.kwcdn.com/product/fancy/89bf367b-a516-47bf-a4c9-057faeefada3.jpg", "https://img.kwcdn.com/product/fancy/5782e1cf-6ba3-4872-9451-9918fc2f7bc1.jpg", "https://img.kwcdn.com/product/fancy/0bfe1caf-6a8f-4709-982f-124395e59e82.jpg", "https://img.kwcdn.com/product/fancy/a4765e9b-452e-4ec2-b3cf-1dd15087c358.jpg", "https://img.kwcdn.com/product/fancy/ed3d312f-ab0e-4dbf-b95b-535188f0f121.jpg", "https://img.kwcdn.com/product/fancy/40fe6baf-de39-4d61-9670-f1345ccbebed.jpg", "https://img.kwcdn.com/product/fancy/4c7c5c3f-7347-42d0-a09c-343e9beceb17.jpg", "https://img.kwcdn.com/product/fancy/551999c4-5d87-41fa-a9c6-902ade771a4c.jpg", "https://img.kwcdn.com/product/fancy/f1ef41bb-0da1-4f67-9368-4b5d619bf203.jpg", "https://img.kwcdn.com/product/fancy/38bd2d6a-31a6-4e4b-b27d-dab064531664.jpg", "https://img.kwcdn.com/product/fancy/16233cb9-1c79-4dd8-b09e-33616c90bb72.jpg", "https://img.kwcdn.com/product/fancy/fbd9232c-c3ae-4c75-a8ac-c27c1ed5871a.jpg", "https://img.kwcdn.com/product/algo_check/auto/ac79589de1b553b14b1a6cb80f2b48de_1793353310896.jpg", "https://img.kwcdn.com/product/fancy/9bdbd03c-bc67-4819-a2ee-aa8af372576b.jpg", "https://img.kwcdn.com/product/algo_check/auto/eebebcfe64f05eccd2a5a7dce4de9612_1792352926808.jpg", "https://img.kwcdn.com/product/fancy/5b8e77fd-5cfd-41f9-8256-ffbc9433e42e.jpg", "https://img.kwcdn.com/product/fancy/269fa648-ad5e-4db9-b427-3162e65c4876.jpg", "https://img.kwcdn.com/product/fancy/57089d0c-f873-40fa-aa2f-b83b08077b6f.jpg", "https://img.kwcdn.com/product/fancy/b8a92b46-dda7-47fc-9d42-1fdd32c7a9d3.jpg", "https://img.kwcdn.com/product/fancy/51d56bdd-d28e-41fb-af0e-984356c1b035.jpg", "https://img.kwcdn.com/product/fancy/b9a77a68-3dad-490a-ab4a-1e92319c8879.jpg", "https://img.kwcdn.com/product/fancy/8ee82403-f081-4a00-bcfa-814a5b3c59ae.jpg", "https://img.kwcdn.com/product/fancy/e5a20708-59af-4f56-bb6b-4e02bedec31c.jpg", "https://img.kwcdn.com/product/fancy/f62f6e3b-eec3-4fe9-b0ba-8a4db3094546.jpg", "https://img.kwcdn.com/product/fancy/5305e9a1-7f3f-44b3-9c93-ee66f4b4656b.jpg", "https://img.kwcdn.com/product/fancy/213010c7-b60b-45f5-b742-cc4f84c9d5cd.jpg", "https://img.kwcdn.com/product/fancy/41bd3a91-d162-438f-b499-318cf45d7cc2.jpg", "https://img.kwcdn.com/product/fancy/fabdc2ff-e2b8-4064-a1cc-de53105f7eb4.jpg", "https://img.kwcdn.com/product/fancy/505abe5a-119e-448a-b2d0-c2a24355104e.jpg", "https://img.kwcdn.com/product/open/0cd6631e7f1547f8bad88b99188b0096-goods.jpeg", "https://img.kwcdn.com/product/fancy/52dc9550-63b2-4710-9d29-aaaa9f1e1ab0.jpg"];
+const FACE = ["https://img.kwcdn.com/product/fancy/99ad64ed-f281-4323-8d6d-26d618088183.jpg", "https://img.kwcdn.com/product/fancy/a2dff6cf-032c-4867-87d9-274b483cf68c.jpg", "https://img.kwcdn.com/product/fancy/5726f70d-fec6-4b7c-9e1a-7888c98f612d.jpg", "https://img.kwcdn.com/product/fancy/df18a476-1def-4dfa-a19b-ed08ed765a6b.jpg", "https://img.kwcdn.com/product/open/f2c26603e520461bbd2738f803bf2eac-goods.jpeg", "https://img.kwcdn.com/product/fancy/f98dc3a4-a2ec-4550-aedd-351f050f3bb1.jpg", "https://img.kwcdn.com/product/fancy/d61c3f1b-80ac-444c-9e45-64c79e387ef1.jpg", "https://img.kwcdn.com/product/fancy/5287e9c0-f8c3-403c-9e74-d3438d72c37c.jpg", "https://img.kwcdn.com/product/fancy/779a4d01-a983-48dc-894d-df11c4a95257.jpg", "https://img.kwcdn.com/product/open/e0fb24dfe0f043a58898f451ad9cfbbb-goods.jpeg", "https://img.kwcdn.com/product/fancy/12fd6578-c2eb-424e-80e8-98f568f96938.jpg", "https://img.kwcdn.com/product/fancy/60740a4d-7875-4942-b3a9-1593596d3327.jpg", "https://img.kwcdn.com/product/open/fcddb3b5a2494585a00389fef5d9eced-goods.jpeg", "https://img.kwcdn.com/product/fancy/708f3eec-cab7-4a98-a043-8880d93080e0.jpg", "https://img.kwcdn.com/product/fancy/f1490133-2f6d-4b23-a53a-8263ec521e3a.jpg", "https://img.kwcdn.com/product/fancy/41c60562-3100-420e-8942-e5d1ed0974ea.jpg", "https://img.kwcdn.com/product/fancy/d0fdaa8e-13c6-4b24-a5a2-3f130eb6030e.jpg", "https://img.kwcdn.com/product/fancy/20784580-9ec8-41a9-aca8-47b2f89d342b.jpg", "https://img.kwcdn.com/product/fancy/f50c3122-65a9-440e-9c76-0cc432c84b9f.jpg", "https://img.kwcdn.com/product/fancy/e442490f-039e-4a7a-8073-ce34ee19c46a.jpg", "https://img.kwcdn.com/product/open/6355eaceb9c34a39bcb932a832769cd9-goods.jpeg", "https://img.kwcdn.com/product/open/a08ee18121ff4f45b80b5ba7739cefb8-goods.jpeg", "https://img.kwcdn.com/product/fancy/a7f35bc3-7b2b-4fdb-a78f-0f419f5cf000.jpg", "https://img.kwcdn.com/product/fancy/df9a1e97-27a3-4a58-8ddb-b21de5efe08b.jpg", "https://img.kwcdn.com/product/open/ac9829cc9a43496fac7f3944699aa8fc-goods.jpeg", "https://img.kwcdn.com/product/fancy/f49213ae-4ceb-4e06-bf0b-4511ed417a40.jpg", "https://img.kwcdn.com/product/fancy/ee547dbe-21b5-48e9-a8ec-c52c8f5504e7.jpg", "https://img.kwcdn.com/product/open/20093c472c6147ddb2664af194e88c47-goods.jpeg", "https://img.kwcdn.com/product/fancy/8c379abd-82cd-46c7-b0e0-a3d214eae5e9.jpg", "https://img.kwcdn.com/product/fancy/3356889b-b7a8-4aa7-ace8-85543e71fe74.jpg", "https://img.kwcdn.com/product/fancy/cce35bd8-8eb0-4e87-85a0-19620a36c724.jpg", "https://img.kwcdn.com/product/open/0261f20d1ac343bf94012b109449e580-goods.jpeg", "https://img.kwcdn.com/product/fancy/a53a6823-642e-416c-88c9-a16c08e1fa50.jpg", "https://img.kwcdn.com/product/fancy/85a4d141-6787-40be-b104-5e077380f0e7.jpg", "https://img.kwcdn.com/product/fancy/e39e04f6-c7db-472d-9129-7009c02d55be.jpg", "https://img.kwcdn.com/product/fancy/045837b3-879e-4f86-9639-cfd0bb6be52c.jpg", "https://img.kwcdn.com/product/fancy/413b93af-4dd6-4f51-9714-400d40fedeba.jpg", "https://img.kwcdn.com/product/fancy/9d5c050d-fa1a-40b5-8d8d-07ce91662a69.jpg", "https://img.kwcdn.com/product/fancy/ebac2ad8-866c-4092-995e-687fc1cf100b.jpg", "https://img.kwcdn.com/product/fancy/14f9412a-9ea3-45a2-8b42-8888d03c146f.jpg", "https://img.kwcdn.com/product/fancy/cb07fac8-4ba0-4692-8035-85d1bd107c4c.jpg", "https://img.kwcdn.com/product/fancy/994cf10a-59dd-4191-b613-88b552c1614b.jpg", "https://img.kwcdn.com/product/fancy/acacb2e3-828c-4e6e-a09f-f8531ad5e605.jpg", "https://img.kwcdn.com/product/fancy/32846eca-7a4e-478d-9f3e-c39ce798b9b7.jpg", "https://img.kwcdn.com/product/fancy/991832d4-04dd-4d20-8ad6-25941ad1aabf.jpg", "https://img.kwcdn.com/product/open/335296633870443c80fc4f429012c954-goods.jpeg", "https://img.kwcdn.com/product/fancy/db1ac991-064f-4852-a446-6d49df098495.jpg", "https://img.kwcdn.com/product/fancy/3badc707-4d92-4a71-8aa1-1170fc451398.jpg", "https://img.kwcdn.com/product/open/105345557ed44c8d96dc864b811d0a48-goods.jpeg", "https://img.kwcdn.com/product/fancy/fb07ba35-7818-4756-9db6-73a6d3cb6b22.jpg", "https://img.kwcdn.com/product/open/28097e43e1354e2590348354e7c11cfc-goods.jpeg", "https://img.kwcdn.com/product/fancy/5b2d4a67-4967-46b1-897f-cd2ad6108b1f.jpg", "https://img.kwcdn.com/product/open/8619302a34e84a9fa65a5d3f93d9a341-goods.jpeg", "https://img.kwcdn.com/product/fancy/f6211561-1f1b-4544-855e-dfeec983ad4c.jpg", "https://img.kwcdn.com/product/fancy/6e815a76-d14a-4a78-8de5-cf508373ac1b.jpg", "https://img.kwcdn.com/product/open/4c5a8e499d324e849129d834a1b16305-goods.jpeg", "https://img.kwcdn.com/product/fancy/87b3e1f5-078d-4c17-8f5d-88a6c425a3fd.jpg", "https://img.kwcdn.com/product/fancy/ff2a742a-41c8-422a-9eef-d499874cfd7c.jpg", "https://img.kwcdn.com/product/fancy/6242fd07-90c6-4012-a7ac-9031d455914c.jpg", "https://img.kwcdn.com/product/fancy/d8db9516-9239-4c96-b1ff-9289dac0c0c7.jpg", "https://img.kwcdn.com/product/fancy/8f668e30-da45-4c51-a60f-def44ce7860d.jpg", "https://img.kwcdn.com/product/fancy/26b1b034-e614-434c-b069-f1b7e9e1fb2c.jpg", "https://img.kwcdn.com/product/fancy/1953c059-27b1-4f76-994b-4e806694d9e3.jpg", "https://img.kwcdn.com/product/fancy/dff3dd47-1e0d-446f-81cf-61c1302bc932.jpg", "https://img.kwcdn.com/product/fancy/23ac8c97-d409-4767-915e-b3843c66828a.jpg", "https://img.kwcdn.com/product/fancy/ff75ea43-7090-4925-9533-fb7967c66409.jpg", "https://img.kwcdn.com/product/fancy/3c43773f-2ce8-425e-b173-aaac6ab7929f.jpg", "https://img.kwcdn.com/product/fancy/945a9a0e-0fa7-46be-9d9f-51a8abe8dbb5.jpg", "https://img.kwcdn.com/product/fancy/4d135aba-913c-4f78-91d4-d99c70608727.jpg", "https://img.kwcdn.com/product/fancy/b826d517-140b-420e-b74f-6c30c9554487.jpg", "https://img.kwcdn.com/product/fancy/4cd557c5-8a87-4e3d-b174-5c98ca24ae84.jpg", "https://img.kwcdn.com/product/fancy/94d9b18b-2b7f-46f3-aff5-776be075e3c4.jpg", "https://img.kwcdn.com/product/open/8b019d20129641709b17667be51ba299-goods.jpeg", "https://img.kwcdn.com/product/fancy/02fce85b-8e68-4351-b7a0-c638192237b7.jpg", "https://img.kwcdn.com/product/fancy/42788a26-cd4e-45cd-9a3a-9da92d550aec.jpg", "https://img.kwcdn.com/product/fancy/e86ba949-f8af-4ebf-8a0f-e0b7a1e497b2.jpg", "https://img.kwcdn.com/product/fancy/84d0c7fe-2d5f-421e-aec7-3e5f080428a4.jpg", "https://img.kwcdn.com/product/algo_check/auto/605e9ae1a5e8df0201fe9029863b5ac5_1762514444569.jpg", "https://img.kwcdn.com/product/open/250b5b299db84be296d79eda5bacf911-goods.jpeg", "https://img.kwcdn.com/product/fancy/5974b86f-ac49-49b2-b67d-8c8787301393.jpg", "https://img.kwcdn.com/product/fancy/dfc6cf4d-8b35-4631-b82b-cc1fcc91abe9.jpg", "https://img.kwcdn.com/product/open/0e639f18d8654801aec6ab7e01cc2105-goods.jpeg", "https://img.kwcdn.com/product/fancy/836a4243-1f49-4681-80bc-180318e6a5a3.jpg", "https://img.kwcdn.com/product/fancy/5e6641c4-b85a-41da-a40c-f7fdae972153.jpg", "https://img.kwcdn.com/product/fancy/23db06b3-a372-430c-863a-241608e7a022.jpg", "https://img.kwcdn.com/product/fancy/b255c40c-f697-4625-af2d-92141f7a1ba4.jpg", "https://img.kwcdn.com/product/fancy/b41193fe-be01-471d-9084-e7e34e9d4b45.jpg", "https://img.kwcdn.com/product/open/b7e742fc2906430d8304a0c2d30921cd-goods.jpeg", "https://img.kwcdn.com/product/fancy/344193f9-7fa6-4baf-87e5-3bb3e039b6d9.jpg", "https://img.kwcdn.com/product/fancy/b3c28870-77c9-49e3-8897-6e9d713f93b4.jpg", "https://img.kwcdn.com/product/open/956a54e90fd14c4191cc360271df9c4b-goods.jpeg", "https://img.kwcdn.com/product/fancy/1a15cf72-dd65-4aff-ad55-b915327cf79f.jpg", "https://img.kwcdn.com/product/fancy/9f486656-83e0-456f-bf5c-56c59f0612c7.jpg", "https://img.kwcdn.com/product/fancy/a85554a3-2b87-4db3-a511-9cfdab7e73e7.jpg", "https://img.kwcdn.com/product/fancy/0b407e6a-687d-413b-832a-fbd7fffaee22.jpg", "https://img.kwcdn.com/product/fancy/72a3eaf0-5acb-4dc8-999b-b00fc953d4bc.jpg", "https://img.kwcdn.com/product/algo_check/auto/2b9b7de3916d7908a05781e449dd80d4_1760969299312.jpg", "https://img.kwcdn.com/product/fancy/593e1384-2fc3-4a5a-b255-25b3212c010a.jpg", "https://img.kwcdn.com/product/fancy/56e6eb78-f9f3-4225-9b61-4dd0d0530280.jpg", "https://img.kwcdn.com/product/fancy/e1bf7fd6-91b3-4042-89a1-83f46778a0ed.jpg", "https://img.kwcdn.com/product/fancy/cb3acd4b-6964-461a-b5e7-220f3c752585.jpg", "https://img.kwcdn.com/product/open/e1717c2a61934ee9914540eb47c46247-goods.jpeg", "https://img.kwcdn.com/product/fancy/8f3309e5-aeb3-440d-9478-946c37b02b63.jpg", "https://img.kwcdn.com/product/fancy/684e6367-e1a6-4689-9cdb-3933e828a401.jpg", "https://img.kwcdn.com/product/fancy/3d182705-6de9-45b5-b867-09c80315b042.jpg", "https://img.kwcdn.com/product/fancy/9684f8ae-38a8-4bef-87f5-0e5865c7bca9.jpg", "https://img.kwcdn.com/product/fancy/bec7a1e5-1a70-4f12-85f5-e8380a5c20aa.jpg", "https://img.kwcdn.com/product/fancy/44f2cd2c-e605-4306-bcfa-8174784591e8.jpg", "https://img.kwcdn.com/product/fancy/6cd08363-7792-4e96-8daf-b1977a7b2604.jpg", "https://img.kwcdn.com/product/fancy/244ee75f-5ee6-403a-8863-6641b1eb584e.jpg", "https://img.kwcdn.com/product/fancy/9cd957bf-f5e3-4896-b6bb-b9175d216a9d.jpg", "https://img.kwcdn.com/product/fancy/dc320950-358a-408b-8c0a-e2c06a858a43.jpg", "https://img.kwcdn.com/product/fancy/f37349d5-4791-4e2e-a114-d4d2911da9f1.jpg", "https://img.kwcdn.com/product/fancy/23030f4b-4a9d-4ead-a109-2b80676353b0.jpg", "https://img.kwcdn.com/product/fancy/bd894856-04e5-4683-a894-6c859c492140.jpg", "https://img.kwcdn.com/product/fancy/13abc594-f229-47d4-9ef2-c9fe0f920848.jpg", "https://img.kwcdn.com/product/fancy/051ee13b-61cc-4167-b471-1f8886a9a1a7.jpg", "https://img.kwcdn.com/product/fancy/544658e9-d2ae-4a96-8f47-4abd2bc2564e.jpg", "https://img.kwcdn.com/product/fancy/bc521873-c550-43eb-9d81-27af42582100.jpg", "https://img.kwcdn.com/product/fancy/c35f03f4-4dff-45ad-8d4a-1e0e50dcf912.jpg", "https://img.kwcdn.com/product/fancy/456d099e-71b2-499a-a38a-99acb1b64459.jpg", "https://img.kwcdn.com/product/open/e0a71ddf10d645a1b2ee11eb9e564f49-goods.jpeg", "https://img.kwcdn.com/product/fancy/bd07eeb6-87c9-48b1-a2f2-3b4828345aef.jpg", "https://img.kwcdn.com/product/fancy/c63671f6-089f-4978-a15b-f8f61b24c747.jpg", "https://img.kwcdn.com/product/fancy/ee5be3c3-123d-4e2e-88a8-9b549398e164.jpg", "https://img.kwcdn.com/product/fancy/cc01fb80-7645-4d55-b9d0-3411817a06af.jpg", "https://img.kwcdn.com/product/fancy/4d788726-62a7-4594-904b-1ef1bff98279.jpg", "https://img.kwcdn.com/product/fancy/0ecc06ad-6460-4f96-9662-fbddb411054d.jpg", "https://img.kwcdn.com/product/open/bbda125fef604e98ac1a7df36f149ade-goods.jpeg"];
+
+/* ---------- countdown ---------- */
+(function(){
+  const now = new Date();
+  let y = now.getFullYear();
+  let xmas = new Date(y, 11, 25);
+  if (now > xmas) xmas = new Date(y+1, 11, 25);
+  const days = Math.ceil((xmas - new Date(now.getFullYear(), now.getMonth(), now.getDate()))/86400000);
+  const cd = document.getElementById('cdNum');
+  const seal = document.getElementById('sealNum');
+  const big = document.getElementById('bigNum');
+  if(cd) cd.textContent = days;
+  if(seal) seal.textContent = days;
+  if(big) big.textContent = days;
+})();
+
+/* ---------- ticker ---------- */
+(function(){
+  const items = ['圣诞爆款画像','纹身贴 188 款','面部装饰贴 129 款','夜光 / 套装 / 腮红贴','主图公式已拆解','窗口期仅剩数周','抓紧上链接'];
+  const html = items.map(t=>`<span>${t}<i>✦</i></span>`).join('');
+  document.getElementById('ticker').innerHTML = html + html;
+})();
+
+/* ---------- hero collage ---------- */
+document.querySelectorAll('[data-src]').forEach(el=>{
+  const key = el.getAttribute('data-src');
+  const arr = key[0]==='T' ? TATTOO : FACE;
+  el.src = arr[parseInt(key.slice(1),10)] || '';
+});
+
+/* ---------- reveal + count ---------- */
+const io = new IntersectionObserver((es)=>{
+  es.forEach(e=>{
+    if(e.isIntersecting){
+      e.target.classList.add('in');
+      e.target.querySelectorAll('[data-count]').forEach(n=>{
+        if(n.dataset.done) return;
+        n.dataset.done = 1;
+        const target = +n.dataset.count;
+        const sup = n.querySelector('sup');
+        const t0 = performance.now();
+        const tick = (t)=>{
+          const p = Math.min((t-t0)/1200,1);
+          const v = Math.floor(target * (1-Math.pow(1-p,3)));
+          n.childNodes[0].nodeValue = v;
+          if(p<1) requestAnimationFrame(tick);
+        };
+        requestAnimationFrame(tick);
+      });
+      io.unobserve(e.target);
+    }
+  });
+},{threshold:.15});
+document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+
+/* ---------- gallery ---------- */
+const ALL = [
+  ...TATTOO.map((u,i)=>({u, cat:'T', id:'T-'+String(i+1).padStart(3,'0')})),
+  ...FACE.map((u,i)=>({u, cat:'F', id:'F-'+String(i+1).padStart(3,'0')}))
+];
+document.getElementById('cAll').textContent = ALL.length;
+document.getElementById('cT').textContent = TATTOO.length;
+document.getElementById('cF').textContent = FACE.length;
+
+let cat = 'all', shown = 24;
+const STEP = 24;
+const grid = document.getElementById('grid');
+const moreBtn = document.getElementById('moreBtn');
+const galCount = document.getElementById('galCount');
+
+function current(){
+  return cat==='all' ? ALL : ALL.filter(x=>x.cat===cat);
+}
+function render(){
+  const list = current();
+  const slice = list.slice(0, shown);
+  grid.innerHTML = slice.map((it,idx)=>`
+    <div class="tile" data-i="${idx}">
+      <img loading="lazy" src="${it.u}" alt="${it.id}" onerror="this.parentNode.classList.add('fail');this.remove()">
+      <div class="wm"></div>
+      <div class="badge">${it.id}</div>
+      <span>${it.id}</span>
+      <div class="cap">${it.id}</div>
+    </div>`).join('');
+  grid.querySelectorAll('.tile').forEach(t=>{
+    t.addEventListener('click', ()=>{
+      const i = +t.dataset.i;
+      openLB(i);
+    });
+  });
+  galCount.textContent = `已展示 ${Math.min(shown,list.length)} / ${list.length}`;
+  moreBtn.style.display = shown >= list.length ? 'none' : 'inline-flex';
+  moreBtn.textContent = `展开更多（还有 ${list.length - shown} 张）`;
+}
+moreBtn.addEventListener('click', ()=>{ shown += STEP; render(); });
+document.querySelectorAll('.tab').forEach(t=>{
+  t.addEventListener('click', ()=>{
+    document.querySelectorAll('.tab').forEach(x=>x.classList.remove('on'));
+    t.classList.add('on');
+    cat = t.dataset.cat; shown = 24; render();
+  });
+});
+render();
+
+/* ---------- lightbox ---------- */
+const lb = document.getElementById('lb');
+const lbImg = document.getElementById('lbImg');
+const lbCap = document.getElementById('lbCap');
+const lbIdx = document.getElementById('lbIdx');
+let lbList = [], lbPos = 0;
+
+function openLB(i){
+  lbList = current(); lbPos = i; paintLB(); lb.classList.add('on');
+  document.body.style.overflow='hidden';
+}
+function paintLB(){
+  const it = lbList[lbPos];
+  if(!it) return;
+  lbImg.src = it.u;
+  lbCap.textContent = it.cat==='T' ? '纹身贴 · '+it.id : '面部装饰贴 · '+it.id;
+  lbIdx.textContent = `${lbPos+1} / ${lbList.length}`;
+}
+function closeLB(){ lb.classList.remove('on'); document.body.style.overflow=''; }
+document.getElementById('lbClose').onclick = closeLB;
+document.getElementById('lbPrev').onclick = ()=>{ lbPos=(lbPos-1+lbList.length)%lbList.length; paintLB(); };
+document.getElementById('lbNext').onclick = ()=>{ lbPos=(lbPos+1)%lbList.length; paintLB(); };
+lb.addEventListener('click', e=>{ if(e.target===lb) closeLB(); });
+document.addEventListener('keydown', e=>{
+  if(!lb.classList.contains('on')) return;
+  if(e.key==='Escape') closeLB();
+  if(e.key==='ArrowLeft'){ lbPos=(lbPos-1+lbList.length)%lbList.length; paintLB(); }
+  if(e.key==='ArrowRight'){ lbPos=(lbPos+1)%lbList.length; paintLB(); }
+});
+
+/* ---------- copy path ---------- */
+document.querySelectorAll('.copy-path').forEach(btn=>{
+  btn.addEventListener('click', async function(){
+    const card = this.closest('.path-card');
+    const txt = card.dataset.copy;
+    try{ await navigator.clipboard.writeText(txt); }
+    catch(e){
+      const ta=document.createElement('textarea'); ta.value=txt; document.body.appendChild(ta);
+      ta.select(); document.execCommand('copy'); ta.remove();
+    }
+    const old = this.textContent;
+    this.textContent = '已复制 ✓';
+    setTimeout(()=>{ this.textContent = old; }, 1800);
+  });
+});
+
+/* ---------- copy ---------- */
+document.getElementById('copyBtn').addEventListener('click', async function(){
+  const txt = `【圣诞爆款画像 · 上新清单】
+【上新路径】
+A 美容和个人护理/彩妆/身体化妆品/纹身贴
+B 美容和个人护理/彩妆/身体化妆品/面部装饰贴
+类目负责人：迢之 niki.chen
+
+【动作清单】
+1. 今晚先上 10 个 SKU：夜光纹身贴 / 百片大套装 / 脸部弧形贴 / 腮红贴 / 眼周水钻贴
+2. 主图四要素：贴纸本体 + 真人上身 + 件数角标 + 圣诞场景
+3. 11/15 前完成铺量 30-50 个 SKU，价格带打宽
+4. 11/16-11/30 测图测款，看点击与加购
+5. 12/15 前把库存备到位，避免断货
+6. 纹身贴 + 面部装饰贴做捆绑，吃满关联流量
+7. 所有主图加水印，禁止跨店铺盗用`;
+  try{
+    await navigator.clipboard.writeText(txt);
+    this.textContent = '已复制 ✓';
+  }catch(e){
+    const ta=document.createElement('textarea'); ta.value=txt; document.body.appendChild(ta);
+    ta.select(); document.execCommand('copy'); ta.remove();
+    this.textContent = '已复制 ✓';
+  }
+  setTimeout(()=>{ this.textContent='复制上新清单'; }, 2200);
+});
+</script>
+</body>
+</html>
